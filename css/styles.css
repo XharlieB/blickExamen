@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+header{
+	height: 79px;
+	width: 100%;
+	background: #ffffff;
+	position: fixed;
+	margin-top: 400px;
+	z-index: 1;
+}
+header nav{
+	background: #fffff5;
+	height: 80px;
+	margin-right: 25px;
+}
+header nav a{
+	text-decoration: none;
+  	font-family: HelveticaNeue;
+  	font-size: .8em;
+  	color: #444444;
+  	float: right;
+  	padding: 10px 15px;
+  	margin: 22px 7px;
+  	border-radius: 50px;
+
+}
+header nav a:hover{
+	background: #e66700;
+	color: white;
+}
+.build-sect{
+	background-image: url(../img/edificios.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 880px;
+	margin-top: -400px;
+}
+.build-sect .vende{
+	margin-top: 555px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'HelveticaNeue';
+	font-size: 68px;
+}
+.build-sect .comision{
+	margin-top: 650px;
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-family: 'HelveticaNeue';
+	font-size: 40px;
+	
+}
+.como-func{
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+	color: #484848;
+	font-size: 25px;
+	font-family: 'HelveticaNeue';
+}
+.img-vs{
+	display: inline-flex;
+	height: 100%;
+	width: 88%;
+	margin-top: 90px;
+	margin-left: 192px;
+	float: right;
+}
+.img-vs .img-1{
+	margin-left: auto;
+	height: 132px;
+}
+.img-vs .img-2{
+	margin-right: auto; 
+	height: 141px;
+}
+.img-vs p{
+	margin: auto 80px auto 80px;
+	border-radius: 100px;
+	background-color: #f7971c;
+	padding: 7px; 
+	font-family: 'HelveticaNeue';
+	color: white;
+	font-size: 13px;	
+}
